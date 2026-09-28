@@ -1,0 +1,20 @@
+# Temporary & Build Folders
+Binaries/
+DerivedDataCache/
+Intermediate/
+Saved/
+Build/
+
+# IDE & Solution Files
+.vs/
+.idea/
+*.sln
+*.slnx
+*.vcxproj
+*.vcxproj.filters
+*.vcxproj.user
+*.code-workspace
+
+# OS Generated Files
+.DS_Store
+Thumbs.db
