@@ -34,8 +34,6 @@ public:
 	UFUNCTION(BlueprintImplementableEvent)
 	void AddMedal(EMedalType MedalType);
 
-private:
-	FGameplayMessageListenerHandle ListenerHandle;
-	
+private:	
 	void OnEliminationMessage(FGameplayTag Channel, const FLyraVerbMessage& Payload);
 };
